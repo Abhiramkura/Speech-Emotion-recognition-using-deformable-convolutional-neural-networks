@@ -33,3 +33,6 @@ A simple Flask-based web interface is provided to allow users to upload .wav aud
 
 Results:
 The system achieved high accuracy and performance metrics on the test data, showing strong generalization across speakers and emotions. Deformable convolutions showed noticeable improvements over standard CNNs in handling variable-length and speaker-dependent inputs.
+![accuracy_and_loss_curve](https://github.com/user-attachments/assets/42813d73-6f17-415f-87ab-01ad98d07742)
+![audio_wave_and_spectogram_form](https://github.com/user-attachments/assets/4cc8b0f0-3430-4a3e-9878-6bc7c88fbb31)
+![classification_report](https://github.com/user-attachments/assets/6de276ab-53e7-44de-9e60-efa8028e88fe)
