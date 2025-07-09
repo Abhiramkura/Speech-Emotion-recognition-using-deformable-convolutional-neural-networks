@@ -20,7 +20,8 @@ Only 8 core emotion classes were used to maintain balance and consistency.
 Feature Extraction:
 Audio files were converted into: MFCC (Mel-Frequency Cepstral Coefficients), Mel-Spectrogram. These features were normalized and padded to a fixed length, then stacked into a shape of [40, 173, 2] before feeding into the model.
 
-Model Training:
+Model Training:![Output_screenshot-1](https://github.com/user-attachments/assets/4f02977d-e4de-4938-9424-6670e77c5eed)
+
 Framework: TensorFlow and Keras
 Loss Function: Categorical Crossentropy
 Optimizer: Adam
@@ -40,3 +41,5 @@ The system achieved high accuracy and performance metrics on the test data, show
 ![output screen shot - 2](https://github.com/user-attachments/assets/1b8b7265-4033-4d1c-a1c7-bfd8af6998c9)
 ![output screen shot - 3](https://github.com/user-attachments/assets/0a0e6bb0-bfad-49ce-9a0f-4c86a4febda8)
 ![output screen shot - 4](https://github.com/user-attachments/assets/10e9f2cd-c075-475d-a4c5-66ffe450f99f)
+![Output_screenshot-2](https://github.com/user-attachments/assets/e111ac7c-d34e-4fa3-b7fd-3d4b4633aaae)
+![Output_screenshot-3](https://github.com/user-attachments/assets/4f4c56d3-c1e0-4b65-8f9e-5e83b157fe91)
