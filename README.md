@@ -40,4 +40,3 @@ The system achieved high accuracy and performance metrics on the test data, show
 ![output screen shot - 2](https://github.com/user-attachments/assets/1b8b7265-4033-4d1c-a1c7-bfd8af6998c9)
 ![output screen shot - 3](https://github.com/user-attachments/assets/0a0e6bb0-bfad-49ce-9a0f-4c86a4febda8)
 ![output screen shot - 4](https://github.com/user-attachments/assets/10e9f2cd-c075-475d-a4c5-66ffe450f99f)
-![Output_screenshot-2](![Output_screenshot-3](https://github.com/user-attachments/assets/47bba34f-6d6f-4a46-acb5-9fcee59b38d8)
