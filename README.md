@@ -1,0 +1,35 @@
+Title:
+Speech Emotion Recognition using Deformable Convolutional Neural Networks (DCNN)
+
+Overview:
+This project focuses on building a robust Speech Emotion Recognition (SER) system using Deformable Convolutional Neural Networks (DCNN). The system classifies human emotions from speech signals by leveraging the flexibility of deformable convolutions, which adapt more effectively to variations in the input feature maps compared to traditional CNNs.
+
+Motivation:
+Emotion recognition from speech is crucial in making human-computer interactions more natural. Traditional CNNs often fall short when dealing with the irregular and variable nature of emotional speech. Deformable convolutions allow the network to adjust its receptive fields dynamically, making it better suited for capturing the subtle variations and non-linear patterns in emotional speech data.
+
+Model Architecture:
+The model uses a combination of Mel-Spectrogram and MFCC features stacked as a dual-channel input. A custom DCNN architecture is designed using TensorFlow and Keras. It includes a series of convolutional layers (including deformable ones), batch normalization, dropout, and dense layers with softmax activation for multi-class emotion classification.
+
+Datasets Used:
+The model was trained on a merged dataset composed of:
+RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song)
+TESS (Toronto Emotional Speech Set)
+CREMA-D (Crowd-sourced Emotional Multimodal Actors Dataset)
+Only 8 core emotion classes were used to maintain balance and consistency.
+
+Feature Extraction:
+Audio files were converted into: MFCC (Mel-Frequency Cepstral Coefficients), Mel-Spectrogram. These features were normalized and padded to a fixed length, then stacked into a shape of [40, 173, 2] before feeding into the model.
+
+Model Training:
+Framework: TensorFlow and Keras
+Loss Function: Categorical Crossentropy
+Optimizer: Adam
+Evaluation Metrics: Accuracy, Precision, Recall, F1-Score
+Epochs: Tuned based on performance (usually between 50–100)
+Data split: Stratified for training and testing
+
+Web Application:
+A simple Flask-based web interface is provided to allow users to upload .wav audio files and get emotion predictions in real time. The front-end is built using HTML, CSS, and JavaScript, designed to be clean and responsive.
+
+Results:
+The system achieved high accuracy and performance metrics on the test data, showing strong generalization across speakers and emotions. Deformable convolutions showed noticeable improvements over standard CNNs in handling variable-length and speaker-dependent inputs.
